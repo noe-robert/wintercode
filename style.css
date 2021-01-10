@@ -1,0 +1,187 @@
+/* 1ère page  */
+
+body {
+    background-color: #f1f5fa;
+}
+
+
+.carousel-item{
+    height: 80vh;
+}
+
+.carousel-item > img {
+height: 100vh;
+position: top;
+      }
+.carousel {
+    margin-bottom: 40px;
+}
+
+p.para, .div3{ text-align: justify;
+}
+
+p.offre  { font-size: 22px;}
+
+ul.offre {
+    list-style-type: circle;
+}
+
+.formulaire{
+    background-color: rgba(255, 255, 255, 0.829); 
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px; 
+    margin: 20px 0px;
+}
+
+.btn {
+background-color:#759FBC;
+border-color: #6f9ab8fa;
+}
+.btn:hover{
+    background-color: #1F5673;
+    border-color:#1c4f6b;
+}
+
+.div3 {
+    text-align: center;
+}
+
+.div4 {
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+}
+
+.container  {
+    margin-bottom: 40px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color:#638ba8 ;
+}
+a:hover{
+    text-decoration:none;
+    color:#1F5673 ;
+}
+.brand  {
+    margin:auto;
+}
+
+
+/* 2ème page  */
+
+.tree {
+    background-image:linear-gradient(-225deg, rgba(0,0,0,0.75), rgba(0,0,0,0.05)), url(images/tree2.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-position: bottom;
+    padding: 25vh;
+    margin-bottom: 20px;
+}
+
+.slog   {
+    color: rgb(201, 201, 201);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:50px;
+    font: bold;
+}
+
+.card{
+    border-radius: 2%;
+
+}
+
+.card-img-top{
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+.pop{ 
+    background-color: rgb(39, 58, 38);
+    border-color: rgb(35, 58, 33);
+    color: rgb(201, 201, 201);
+    margin-left: 80%;
+}
+.pop:hover{ 
+    background-color: rgb(30,51,29);
+    border-color: rgb(30,51,29)
+}
+
+@media (max-width:800px) {
+    .cards{
+        display: block;
+        
+    }
+    .cart{
+
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .carousel-item{
+        height: 50vh;
+    }
+
+    .tree{
+        height: 50vh;
+    }
+    .slog {
+        font-size: 40px;
+    }
+    .pop{ 
+        display: none;
+    }
+
+}
+
+@media (max-width:600px) {
+    .cards{
+        display: block;
+        
+    }
+    .cart{
+
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .carousel-item{
+        height: 40vh;
+    }
+    .tree{
+       height: 40vh;
+    }
+    .slog {
+        font-size: 40px;
+    }
+
+}
+
+
+
+/* 3ème page  */
+.propos {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 50vw;
+    border: 1px, solid black;
+    border-radius: 2%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+
+.leaf{
+    font-size: 20px;
+}
+
+.station{
+    background-color:#7994a7;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.1);
+}
+
+.station:hover{
+    background-color:#446170 ;
+}
